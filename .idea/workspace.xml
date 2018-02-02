@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="146d6b0b-6af4-46f8-92d5-4033dc130ca5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdp_lib/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdp_lib/domains/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdp_lib/domains/gridworld.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdp_lib/domains/gridworldvis.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdp_lib/mdp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdp_lib/policy.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdp_lib/reward_function.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdp_lib/rf_utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdp_lib/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mdp_lib/value_iteration.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ped_irl/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ped_irl/discretizedobmdp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ped_irl/obmdp_visualizer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ped_irl/obs_belief_mdp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/planninginbeliefmodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Model_Simulations.ipynb" afterPath="$PROJECT_DIR$/Model_Simulations.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -193,6 +177,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="demonstration-learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demonstration-learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demonstration-learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ped_irl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demonstration-learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demonstration-learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mdp_lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demonstration-learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demonstration-learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cached_values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demonstration-learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demonstration-learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".ipynb_checkpoints" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
