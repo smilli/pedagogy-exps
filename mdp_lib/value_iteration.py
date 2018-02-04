@@ -9,8 +9,8 @@ import rf_utils
 
 logger = logging.getLogger(__name__)
 
-def deterministicVI(rf, tf, init_state=None, max_iterations=100, delta=.001,
-                    gamma=.99, fixed_action_order=True, print_info=False):
+def VI(rf, tf, init_state=None, max_iterations=100, delta=.001,
+       gamma=.99, fixed_action_order=True, print_info=False):
     """Finds an optimal deterministic policy given a
             reward function: {s: {a: {ns : r } }, and 
             transition function: {s : {a : {ns : prob}}}

@@ -8,7 +8,7 @@ import numpy as np
 
 from mdp_lib.mdp import MDP
 from mdp_lib.reward_function import RewardFunction
-from mdp_lib.value_iteration import deterministicVI
+from mdp_lib.value_iteration import VI
 
 from ..util import calc_softmax_policy
 
@@ -524,7 +524,7 @@ class GridWorld(MDP):
                 state_action_nextstates=state_action_nextstates
             )
         tf = self.gen_transition_dict()
-        op, vf, av = deterministicVI(rf, tf, init_state=start_state, **kwargs)
+        op, vf, av = VI(rf, tf, init_state=start_state, **kwargs)
         self.optimal_policy = op
         self.value_function = vf
         self.action_value_function = av

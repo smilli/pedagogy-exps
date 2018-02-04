@@ -4,7 +4,7 @@ import random
 
 import numpy as np
 
-from value_iteration import deterministicVI
+from value_iteration import VI
 from util import sample_prob_dict
 
 
@@ -109,7 +109,7 @@ class MDP(object):
                 state_action_nextstates=state_action_nextstates
             )
         tf = self.gen_transition_dict()
-        op, vf, av = deterministicVI(rf, tf, init_state=start_state, **kwargs)
+        op, vf, av = VI(rf, tf, init_state=start_state, **kwargs)
         self.optimal_policy = op
         self.value_function = vf
         self.action_value_function = av
